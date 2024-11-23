@@ -1,0 +1,13 @@
+# Exported from Render on 2024-11-23T13:11:33Z
+services:
+- type: web
+  name: test-github-fork
+  runtime: node
+  repo: https://github.com/RalpGungon/Three-C-Website-Copy
+  plan: free
+  region: singapore
+  buildCommand: npm install
+  startCommand: node index.js
+  previews:
+    generation: manual
+version: "1"
